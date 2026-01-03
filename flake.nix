@@ -21,7 +21,6 @@
       environment.systemPackages =
         [
           pkgs._1password-cli
-          pkgs.alacritty
           pkgs.gfortran
           pkgs.home-manager
           pkgs.lua51Packages.lua
@@ -76,6 +75,7 @@
               "/System/Applications/Notes.app"
               "/Applications/1Password.app"
               "${pkgs.vscode}/Applications/Visual Studio Code.app"
+              "${pkgs.ghostty-bin}/Applications/Ghostty.app"
           ];
           finder.FXPreferredViewStyle = "clmv";
           loginwindow.GuestEnabled = false;
