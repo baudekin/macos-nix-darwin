@@ -75,7 +75,8 @@
               "/System/Applications/Notes.app"
               "/Applications/1Password.app"
               "${pkgs.vscode}/Applications/Visual Studio Code.app"
-              "${pkgs.ghostty-bin}/Applications/Ghostty.app"
+              "/Users/bodkin/Applications/Home Manager Apps/Ghostty.app"
+              "/Users/bodkin/Applications/Home Manager Apps/Emacs.app"
           ];
           finder.FXPreferredViewStyle = "clmv";
           loginwindow.GuestEnabled = false;
