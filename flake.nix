@@ -29,7 +29,6 @@
           pkgs.neovim
           pkgs.texliveFull
           pkgs.tmux
-          pkgs.vscode
         ];
 
         homebrew = {
@@ -74,7 +73,7 @@
               "/System/Applications/Music.app"
               "/System/Applications/Notes.app"
               "/Applications/1Password.app"
-              "${pkgs.vscode}/Applications/Visual Studio Code.app"
+              "/Users/bodkin/Applications/Home Manager Apps/Visual Studio Code.app"
               "/Users/bodkin/Applications/Home Manager Apps/Ghostty.app"
               "/Users/bodkin/Applications/Home Manager Apps/Emacs.app"
           ];
