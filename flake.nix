@@ -27,10 +27,6 @@
           # $ nix-env -qaP | grep wget
           # Texlive Setup Wiki: https://wiki.nixos.org/wiki/TexLive
           environment.systemPackages = [
-            # Darwin version of ghostty
-            pkgs.ghostty-bin
-            # Media Viewer Mocos Version
-            pkgs.vlc-bin
             pkgs._1password-cli
             pkgs.home-manager
             pkgs.mkalias
