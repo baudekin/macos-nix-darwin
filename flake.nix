@@ -30,6 +30,7 @@
             pkgs._1password-cli
             pkgs.home-manager
             pkgs.mkalias
+            pkgs.bashInteractive
           ];
 
           homebrew = {
