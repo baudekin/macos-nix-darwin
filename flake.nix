@@ -114,6 +114,9 @@
             "nix-command"
             "flakes"
           ];
+          nix.settings.trusted-users = [
+            "bodkin"
+          ];
 
           # Enable alternative shell support in nix-darwin.
           # programs.fish.enable = true;
