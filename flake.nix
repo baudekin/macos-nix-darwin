@@ -37,6 +37,7 @@
             enable = true;
             brews = [
               "mas"
+              "languagetool"
             ];
 
             masApps = {
@@ -45,7 +46,6 @@
 
             casks = [
               "hammerspoon"
-              "firefox"
             ];
             onActivation.cleanup = "zap";
             onActivation.autoUpdate = true;
